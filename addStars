@@ -1,0 +1,7 @@
+// addStars https://www.codestepbystep.com/problem/view/java/collections/arraylist/addStars
+
+public static void addStars(ArrayList<String> test) {
+    for(int i=0; i<=test.size(); i++) {
+        test.add(i++, "*");
+    }
+}
